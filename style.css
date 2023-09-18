@@ -1,0 +1,358 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+.numberInput {
+	width: 240px;
+	text-align: end;
+	border: none;
+    font-size: 60px;
+    color: #fff;
+    background: #000;
+    margin-left: 25px;
+	padding: 30px 0px 5px 0px;
+
+}
+
+input:active {
+	outline: none;
+}
+
+input:hover {
+	outline: none;
+}
+
+input[type="number" i] {
+    padding-top: 50px;
+}
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	max-width: 600px;
+	background-color: #000;
+}
+
+.operatorsUpper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.number_input {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.number_input_two {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.number_input_three {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.number_input_four {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.operator_delete {
+	background-color: #a5a5a5;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	margin: 0px 5px 10px 5px;
+	cursor: pointer;
+	border: none;
+}
+
+.operator_sum_minus {
+	background-color: #a5a5a5;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	margin: 0px 5px 10px 5px;
+	cursor: pointer;
+}
+
+.operator_percent {
+	background-color: #a5a5a5;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	margin: 0px 5px 10px 5px;
+	cursor: pointer;
+}
+
+.operator_division {
+	background-color: #fea00a;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	margin: 0px 10px 10px 5px;
+	cursor: pointer;
+}
+
+.number {
+    background-color: #333333;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: #fff;
+    margin: 0px 5px 10px 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.number:active {
+    background-color: #bcbcbc;
+}
+
+.number_eight {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.number_nine {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.operator_multiplication {
+	background-color: #fea00a;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	margin: 0px 10px 10px 5px;
+	cursor: pointer;
+}
+
+.number_four {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 10px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.number_five {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.number_six {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.operator_subtraction {
+	background-color: #fea00a;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	margin: 0px 10px 10px 5px;
+	cursor: pointer;
+}
+
+.number_one {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 10px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.number_two {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.number_three {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 10px 10px 0px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.operator_addition {
+	background-color: #fea00a;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	margin: 0px 10px 10px 5px;
+	cursor: pointer;
+}
+
+.number_o {
+	background-color: #333333;
+	border-radius: 30px;
+	width: 130px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 5px 10px 5px;
+	cursor: pointer;
+	border: none;
+	text-align: center;
+}
+
+.symbol_ {
+	background-color: #333333;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22px;
+	color: #fff;
+	margin: 0px 5px 10px 5px;
+	cursor: pointer;
+}
+
+.operator_equally {
+	background-color: #fea00a;
+	border-radius: 50%;
+	width: 60px;
+	height: 60px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 35px;
+	margin: 0px 10px 10px 5px;
+	cursor: pointer;
+}
+
